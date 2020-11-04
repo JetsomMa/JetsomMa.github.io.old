@@ -2,7 +2,7 @@
 layout: post
 title: 降低node的版本
 date: 2020-01-20 
-tags: nodejs    
+tags: Nodejs    
 ---
 
 ## 降低node的版本
