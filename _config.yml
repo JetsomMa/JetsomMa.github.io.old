@@ -14,13 +14,13 @@ enableToc: true
 # Comment
 comment:
   # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    disqus: leopard
+    disqus: https-www-mashaojie-club
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:
     weibo: msj1215458034 
-    github: meinanzi-coding
+    github: jetsoman
     mail: mashaojie@pinefield-inc.com
 
 
