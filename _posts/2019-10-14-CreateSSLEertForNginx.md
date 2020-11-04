@@ -64,8 +64,6 @@ cfssl_linux-amd64和cfssljson_linux-amd64
 
 执行完此命令后会生成以下文件，其中ca.pem为证书ca-key.pem为秘钥
 
-![img]() 
-
 使用普通用户生成时无需将cfssl_linux-amd64和cfssljson_linux-amd64工具放到/usr/local/bin目录下，直接在上传目录下执行以下命令也可
 
 `./cfssl_linux-amd64 gencert -initca ca-csr.json | ./cfssljson_linux-amd64 -bare ca`

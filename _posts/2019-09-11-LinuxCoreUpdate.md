@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MAC 笔记本上 XMind 软件破解安装
+title: Linux内核升级
 date: 2019-09-11 
 tags: Linux    
 ---

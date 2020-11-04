@@ -1,11 +1,9 @@
 ---
 layout: post
-title: MAC笔记本配置环境变量
+title: MAC笔记本配置环境变量【操作.bash_profile文件】
 date: 2020-04-07
 tags: Mac    
 ---
-
-## MAC笔记本配置环境变量【操作.bash_profile文件】
 
 ### 1. 在命令行中输入
  `export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin`

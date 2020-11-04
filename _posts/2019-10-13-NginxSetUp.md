@@ -5,7 +5,7 @@ date: 2019-10-13
 tags: Nginx   
 ---
 
-## 安装nginx
+## 一、安装nginx
 
 ### 1、编译环境依赖
 

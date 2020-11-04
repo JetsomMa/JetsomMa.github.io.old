@@ -33,7 +33,7 @@ $ sudo npm install npm@latest -g
 ```shell
 node -v
 npm -v
-
+```
 
 >原文出处
 >作者：南方帅
