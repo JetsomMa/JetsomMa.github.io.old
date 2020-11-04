@@ -5,30 +5,30 @@ date: 2019-8-20
 tags: JavaScript   
 ---
 
-## 1、constructor 【构造函数】
+### 1、constructor 【构造函数】
 
-### 使用方式：
+#### 使用方式：
 
 ```jsx
 let retObj = object.constructor；
 ```
 
-### 使用范例：
+#### 使用范例：
 
 ```jsx
 let object = new Object();
 console.log(object.constructor);  //ƒ Object() { [native code] }
 ```
 
-## 2、hasOwnProperty 【判断是否包含某个直属属性】
+### 2、hasOwnProperty 【判断是否包含某个直属属性】
 
-### 使用方式：
+#### 使用方式：
 
 ```jsx
 let retBoolean = object.hasOwnProperty(key)；
 ```
 
-### 使用范例：
+#### 使用范例：
 
 ```jsx
 let object = {
@@ -42,15 +42,15 @@ console.log(object.hasOwnProperty("name"));		//true		---hasOwnProperty只检索�
 console.log("name" in object);								//true		---in会检索继承链属性
 ```
 
-## 3、isPrototypeOf 【判断一个对象是否是另一个对象的原型父对象】
+### 3、isPrototypeOf 【判断一个对象是否是另一个对象的原型父对象】
 
-### 使用方式：
+#### 使用方式：
 
 ```jsx
 let retBoolean = object.isPrototypeOf(subObj);
 ```
 
-### 使用范例：
+#### 使用范例：
 
 ```jsx
 let Person = function(name){
@@ -82,15 +82,15 @@ console.log(person.isPrototypeOf(student));	//false
 console.log(student.isPrototypeOf(person));	//false
 ```
 
-## 4、propertyIsEnumerable 【判断某一个属性的值是否可枚举】
+### 4、propertyIsEnumerable 【判断某一个属性的值是否可枚举】
 
-### 使用方式：
+#### 使用方式：
 
 ```jsx
 let retBoolean = object.propertyIsEnumerable(name);
 ```
 
-## 使用范例：
+#### 使用范例：
 
 ```jsx
 let array = ["Banana", "Orange", "Apple", "Mango"];
@@ -125,45 +125,45 @@ console.log(object.propertyIsEnumerable("num"));		//true
 console.log(object.propertyIsEnumerable("array"));	//true
 ```
 
-## 5、toLocaleString 【对象转字符串-目前没发现啥用途】
+### 5、toLocaleString 【对象转字符串-目前没发现啥用途】
 
-### 使用方法：
+#### 使用方法：
 
 ```jsx
 let retString = object.toLocaleString();
 ```
 
-### 使用范例：
+#### 使用范例：
 
 ```jsx
 let obj = {name: "msj"};
 obj.toLocaleString();			//"[object Object]"
 ```
 
-## 6、toString  【对象转字符串-目前没发现啥用途】
+### 6、toString  【对象转字符串-目前没发现啥用途】
 
-### 使用方法：
+#### 使用方法：
 
 ```jsx
 let retString = object.toString();
 ```
 
-### 使用范例：
+#### 使用范例：
 
 ```jsx
 let obj = {name: "msj"};
 obj.toString();			//"[object Object]"
 ```
 
-## 7、valueOf 【返回对象本身】
+### 7、valueOf 【返回对象本身】
 
-### 使用方法：
+#### 使用方法：
 
 ```jsx
 let myObject = object.valueOf();
 ```
 
-### 使用范例：
+#### 使用范例：
 
 ```jsx
 let obj = {};
