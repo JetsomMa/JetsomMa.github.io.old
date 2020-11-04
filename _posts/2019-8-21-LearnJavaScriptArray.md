@@ -88,7 +88,7 @@ let iterator = ["Banana", "Orange", "Apple", "Mango"].entries();
 iterator.next();
 ```
 
-### 使用范例：
+#### 使用范例：
 
 ```jsx
 let iterator = ["Banana", "Orange", "Apple", "Mango"].entries();
