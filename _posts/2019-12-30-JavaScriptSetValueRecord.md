@@ -113,7 +113,7 @@ console.log(node);
 //{newName: "我怎么这么好看！", key: "msj3"}
 console.log(rootNode);
 //结果如下图所示
-//{name: "美男子", next: {{newName: "我怎么这么好看！", key: "msj1", next: {{newName: "我怎么这么好看！", key: "msj2", next: {{newName: "我怎么这么好看！", key: "msj3"}}}}}}}
+//{name: "美男子", next: {newName: "我怎么这么好看！", key: "msj1", next: {newName: "我怎么这么好看！", key: "msj2", next: {newName: "我怎么这么好看！", key: "msj3"}}}}
 
 //分析：此时你会发现，场景2中得出的结论并不能解释现在rootNode的结果。一直以来我们都只是在数据存储方面来理解，而并没有从代码运行解析层面去考虑，所以得到的思维模型并不完整。
 //结论：完整的理解这一运行结果需要三个知识点：
