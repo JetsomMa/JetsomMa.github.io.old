@@ -506,7 +506,7 @@ img::-moz-selection {
 
 .excerpt {
   word-wrap: break-word;
-  white-space: pre-wrap; 
+  /* white-space: pre-wrap;  */
   border-left: 3px solid #12B2F8;
   margin: 0;
   margin-right: 10px;
@@ -647,6 +647,10 @@ hr {
     border: none;
     box-shadow: none; 
   }*/
+.post {
+  word-wrap: break-word;
+  /* white-space: pre-wrap;  */
+}
 
 .post img {
   max-width: 100%;
