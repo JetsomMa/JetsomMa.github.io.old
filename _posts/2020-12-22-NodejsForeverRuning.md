@@ -1,14 +1,9 @@
-\---
-
+---
 layout: post
-
 title: nodejs服务后台持久化运行
-
 date: 2020-12-22
-
 tags: MarkDown    
-
-\---
+---
 
 >  forever是一个nodejs守护进程，完全由命令行操控。forever会监控nodejs服务，并在服务挂掉后进行重启。
 
