@@ -9,7 +9,10 @@ tags: Nginx
 
 ### 1、编译环境依赖
 
- gcc和 gcc-c++
+ ```shell
+ # gcc和 gcc-c++
+ yum -y install gcc gcc-c++
+ ```
 
 ### 2、安装包及依赖包
 

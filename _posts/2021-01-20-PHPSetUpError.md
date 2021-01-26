@@ -8,13 +8,17 @@ tags: php
 ### 1.安装php的命令
 
 ```shell
+# 下载php压缩包，然后解压缩
+tar -xzvf XXXXXX.tar.gz
+cd XXXXXX
+
 #安装php8.0.1
 ./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm --with-fpm-user=www --with-fpm-group=www --enable-mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd --enable-mysqlnd-compression-support     --with-zlib  --enable-xml --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem  --with-curl --enable-mbregex --enable-mbstring --enable-intl   --enable-ftp  --enable-gd-jis-conv  --with-openssl --with-mhash --enable-pcntl --enable-sockets   --enable-soap --with-gettext --disable-fileinfo --enable-opcache --with-pear  --with-ldap=shared --without-gdbm
 
 #安装php7.2以下版本
 ./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --enable-fpm --with-fpm-user=www --with-fpm-group=www --enable-mysqlnd --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd --enable-mysqlnd-compression-support --with-iconv-dir --with-freetype-dir --with-jpeg-dir --with-png-dir --with-zlib --with-libxml-dir --enable-xml --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --with-curl --enable-mbregex --enable-mbstring --enable-intl --with-mcrypt --with-libmbfl --enable-ftp --with-gd --enable-gd-jis-conv --enable-gd-native-ttf --with-openssl --with-mhash --enable-pcntl --enable-sockets --with-xmlrpc --enable-zip --enable-soap --with-gettext --disable-fileinfo --enable-opcache --with-pear --enable-maintainer-zts --with-ldap=shared --without-gdbm
 
-#安装php7.2以下版本
+#安装php7.3版本
 ./configure --prefix=/usr/local/php73 --with-curl --with-freetype-dir --with-gd --with-gettext --with-iconv-dir --with-kerberos --with-libdir=lib64 --with-libxml-dir --with-mysqli --with-openssl --with-pcre-regex --with-pdo-mysql --with-pdo-sqlite --with-pear --with-png-dir --with-xmlrpc --with-xsl --with-zlib --enable-fpm --enable-bcmath -enable-inline-optimization --enable-mbregex --enable-mbstring --enable-opcache --enable-pcntl --enable-shmop --enable-soap --enable-sockets --enable-sysvshm --enable-sysvmsg --enable-sysvsem --enable-xml --enable-zip --with-fpm-user=nginx --enable-ftp --enable-exif  --enable-session --with-mhash --with-ldap
 
 #安装
@@ -346,6 +350,42 @@ make && make install
 export PKG_CONFIG_PATH=/usr/local/pcre2/lib/pkgconfig/
 ```
 
+#### 解决 libxml2 not found. Please check your libxml2 installation
+
+```shell
+yum install libxml2-devel
+```
+
+#### 解决 configure: error: png.h not found
+
+```shell
+# 具体报错为：
+# If configure fails try --with-vpx-dir=<DIR>
+# If configure fails try --with-jpeg-dir=<DIR>
+# configure: error: png.h not found.
+
+# 解决命令：
+yum install libpng
+yum install libpng-devel
+```
+
+#### 解决 configure: error: freetype-config not found
+
+```shell
+# 具体报错为：
+# If configure fails try --with-xpm-dir=<DIR>
+#configure: error: freetype-config not found
+
+# 解决命令：
+yum install  freetype-devel
+```
+
+#### 解决 configure: error: xslt-config not found. Please reinstall the libxslt >= 1.1.0 distribution
+
+```shell
+yum -y install libxslt libxslt-devel
+```
+
 #### 解决 configure: error: Please reinstall the libzip distribution
 
 ```shell
@@ -372,7 +412,7 @@ make install
 
 ```shell
 # 1. 官网下载cmake-3.12.2.tar.gz
-https://github.com/Kitware/CMake/releases/download/v3.13.2/cmake-3.13.2.tar.gz
+wget https://github.com/Kitware/CMake/releases/download/v3.13.2/cmake-3.13.2.tar.gz
 
 # 2. 解压到指定目录
 tar -zxvf cmake-3.13.2.tar.gz
