@@ -17,7 +17,7 @@ title: 关于我
 
 <p> 
 微信\QQ: 1215458034
-<img src="https://www.mashaojie.club/download/weixin.png"/>
+<img style="width: 30%;" src="https://www.mashaojie.club/download/weixin.png"/>
 </p> 
 
 <h3> 特别鸣谢 </h3>  
