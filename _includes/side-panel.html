@@ -49,7 +49,7 @@
                 <li class="navigation__item"><a href="{{item.url}}" title="{{item.description}}">{{item.title}}</a></li>
                 {% endfor %}
                 <li class="navigation__item"><a href="https://www.mashaojie.cn" title="new website"
-                  class="blog-button">新站地址</a></li>
+                    class="blog-button">新站地址</a></li>
               </ul>
             </nav>
           </div>
@@ -60,16 +60,17 @@
       {% if page.layout == 'default' %}
       <div class="beian-class">
         <p class="copyright text-muted">
-          Copyright &copy; {{ site.time | date: '%Y' }} {{ site.title }} 
+          Copyright &copy; {{ site.time | date: '%Y' }} {{ site.title }}
         </p>
         <p class="copyright text-muted">
-          京ICP备19042878号-1   
+          <a href="https://beian.miit.gov.cn/#/Integrated/index">京ICP证19042878号</a>
           <br>
-          公安备案：30156758672872336号
+          <a
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=30156758672872336">京公网安备30156758672872336号</a>
         </p>
       </div>
       {% endif %}
-      
+
     </div>
   </div>
 
