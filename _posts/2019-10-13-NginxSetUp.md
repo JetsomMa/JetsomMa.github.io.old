@@ -75,14 +75,16 @@ tar -zxvf zlib-1.2.11.tar.gz
 执行
 
 ```shell
-./configure --prefix=/home/nginx/nginx   				//指定nginx的安装目录
+# ./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module --with-http_gzip_static_module --with-http_realip_module --with-http_sub_module --with-pcre
+
+./configure --prefix=/usr/local/nginx   				//指定nginx的安装目录
 	--with-http_stub_status_module    					 	//使ngx_stub_status_module 模块可用
 	--with-http_ssl_module    										//使用https协议模块
 	--with-http_gzip_static_module 								//使nginx支持gzip资源的部署
 	--with-http_realip_module 
 	--with-http_sub_module 
-	--with-openssl=/home/nginx/openssl-1.0.1t 		//读取openssl库的源码路径
-	--with-pcre=/home/nginx/pcre-8.39    					//读取pcre库的源码路径
+	--with-openssl 		//读取openssl库的源码路径
+	--with-pcre    					//读取pcre库的源码路径
 	--user=nginx    															//设置nginx工作进程的用户
 	--group=nginx   															//设置nginx的工作进程的用户组
 ```
