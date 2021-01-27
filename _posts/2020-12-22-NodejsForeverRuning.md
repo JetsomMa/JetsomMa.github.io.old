@@ -6,6 +6,7 @@ tags: MarkDown
 ---
 
 >  forever是一个nodejs守护进程，完全由命令行操控。forever会监控nodejs服务，并在服务挂掉后进行重启。
+>  pm2的命令规则和forever一致，只需要将forever命令替换成pm2即可
 
 ### 1、安装 forever
 
