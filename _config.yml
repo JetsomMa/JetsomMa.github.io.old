@@ -3,7 +3,7 @@ title: 马少杰[Jetsom]
 subtitle: 个人站点
 description: 欢迎交流学习，工作使我快乐
 # 头像里面的标题
-avatarTitle: Jetsoman
+avatarTitle: JetsomMa
 # 头像里面的描述
 avatarDesc: 帅气而又睿智的我！
 url: "https://mashaojie.cn"
@@ -14,7 +14,7 @@ enableToc: true
 # Comment
 comment:
   # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    disqus: https-www-mashaojie-club
+    disqus: https-www-mashaojie-cn
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social

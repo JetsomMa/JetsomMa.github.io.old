@@ -10,7 +10,7 @@ tags: Aframe
 
 ## 源码路径
 
-[github源码](https://github.com/jetsoman/heatmap) https://github.com/jetsoman/heatmap
+[github源码](https://github.com/JetsomMa/heatmap) https://github.com/JetsomMa/heatmap
 
 ## 体验路径
 
