@@ -14,7 +14,7 @@ tags: Aframe
 
 ## 体验路径
 
-[热力图体验路径](https://www.mashaojie.club/github/heatmap/index.html) https://www.mashaojie.club/github/heatmap/index.html
+[热力图体验路径](https://www.mashaojie.cn/github/heatmap/index.html) https://www.mashaojie.cn/github/heatmap/index.html
 
 ## 接口文档
 

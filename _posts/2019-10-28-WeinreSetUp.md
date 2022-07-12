@@ -29,21 +29,21 @@ weinre可以通过npm进行全局安装
 
 将截图中2标注的位置代码复制到移动前端项目的index.html页面中，并将ip改为电脑在就局域网中的IP地址，点击标注1进入移动调试页面。
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925183204538.png" alt="image-20190925183204538" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925183204538.png" alt="image-20190925183204538" style="zoom:50%;" />
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925210702586.png" alt="image-20190925210702586" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925210702586.png" alt="image-20190925210702586" style="zoom:50%;" />
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925210726246.png" alt="image-20190925210726246" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925210726246.png" alt="image-20190925210726246" style="zoom:50%;" />
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925210740719.png" alt="image-20190925210740719" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925210740719.png" alt="image-20190925210740719" style="zoom:50%;" />
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925210753405.png" alt="image-20190925210753405" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925210753405.png" alt="image-20190925210753405" style="zoom:50%;" />
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925210809205.png" alt="image-20190925210809205" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925210809205.png" alt="image-20190925210809205" style="zoom:50%;" />
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925210836384.png" alt="image-20190925210836384" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925210836384.png" alt="image-20190925210836384" style="zoom:50%;" />
 
-<img src="https://mashaojie.club/download/source/typora-user-images/image-20190925210849264.png" alt="image-20190925210849264" style="zoom:50%;" />
+<img src="https://mashaojie.cn/download/source/typora-user-images/image-20190925210849264.png" alt="image-20190925210849264" style="zoom:50%;" />
 
 ### 参考文献
 

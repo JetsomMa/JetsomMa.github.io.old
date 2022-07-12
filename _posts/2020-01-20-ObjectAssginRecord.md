@@ -189,7 +189,7 @@ console.log(stu3);
 
 测试截图：
 
-![image-20200510141504895](https://mashaojie.club/download/source/typora-user-images/image-20200510141504895.png)
+![image-20200510141504895](https://mashaojie.cn/download/source/typora-user-images/image-20200510141504895.png)
 
 ### 4、合并多个对象
 

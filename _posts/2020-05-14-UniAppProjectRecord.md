@@ -18,10 +18,10 @@ tags: UniApp
 >
 > 小程体验二维码:
 >
-> <img src="https://mashaojie.club/download/sxnx-mp/gh_a77f938e4585_1280.jpg" alt="gh_a77f938e4585_1280 (1)" style="zoom:30%;" />
+> <img src="https://mashaojie.cn/download/sxnx-mp/gh_a77f938e4585_1280.jpg" alt="gh_a77f938e4585_1280 (1)" style="zoom:30%;" />
 >
 >
-> H5程序体验鉴赏，请来这里 https://mashaojie.club/sxxh 
+> H5程序体验鉴赏，请来这里 https://mashaojie.cn/sxxh 
 >
 > 【手机上打开食用才有味道】
 >
