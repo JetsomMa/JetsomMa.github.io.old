@@ -82,7 +82,7 @@ console.log(node);
 //结论：这个现场从js的对象栈内存和堆内存存储角度就能理解
 ```
 
-![image-20200525151117623](https://mashaojie.cn/download/source/typora-user-images/image-20200525151117623.png)
+![image-20200525151117623](https://mashaojie.cn/blog/source/typora-user-images/image-20200525151117623.png)
 
 ```js
 //2、场景2
@@ -96,7 +96,7 @@ console.log(node);
 //注意：注意：注意：这样理解虽然能说明问题，然而理解的并不完整，存在错误！！！
 ```
 
-![image-20200525165147140](https://mashaojie.cn/download/source/typora-user-images/image-20200525165147140.png)
+![image-20200525165147140](https://mashaojie.cn/blog/source/typora-user-images/image-20200525165147140.png)
 
 ```js
 //3、场景3
@@ -125,6 +125,6 @@ console.log(rootNode);
 //{newName:"我怎么这么好看！"}创建堆内存变量->node.next赋值指向新创建的堆内存变量->node赋值指向新创建的堆内存变量
 ```
 
-![image-20200525153655471](https://mashaojie.cn/download/source/typora-user-images/image-20200525153655471.png)
+![image-20200525153655471](https://mashaojie.cn/blog/source/typora-user-images/image-20200525153655471.png)
 
-![image-20200525164748387](https://mashaojie.cn/download/source/typora-user-images/image-20200525164748387.png)
+![image-20200525164748387](https://mashaojie.cn/blog/source/typora-user-images/image-20200525164748387.png)

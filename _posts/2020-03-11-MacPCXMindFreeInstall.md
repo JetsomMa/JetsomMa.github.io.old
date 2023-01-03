@@ -8,11 +8,11 @@ tags: Mac
 
 ### 1、下载 XMind 安装包
 
-[XMind 安装包下载](https://mashaojie.cn/download/Software/Mac/XMind-Package-For-Mac.zip)
+[XMind 安装包下载](https://mashaojie.cn/blog/Software/Mac/XMind-Package-For-Mac.zip)
 
 下载后的内容如下图所示，其中 dmg 文件 XMind 安装文件【从官网下载的】，XMindCrack.jar 为破解所需的文件。
 
-![image-xmind-zip](https://mashaojie.cn/download/Software/Mac/image-xmind-zip.png)
+![image-xmind-zip](https://mashaojie.cn/blog/Software/Mac/image-xmind-zip.png)
 
 ### 2、断网并安装 XMind
 
@@ -22,7 +22,7 @@ tags: Mac
 
 **_在 XMind 应用开启的状态下_**，查看 xmind.app 包内容
 
-![XMind.app-Contents](https://mashaojie.cn/download/Software/Mac/XMind.app-Contents.jpg)
+![XMind.app-Contents](https://mashaojie.cn/blog/Software/Mac/XMind.app-Contents.jpg)
 
 打开包之后，进入 Contents/Eclipse/文件夹，
 
@@ -36,7 +36,7 @@ B、同时修改 XMind.ini 文件，在后面添加
 
 如下图所示，操作 XMind 的菜单，进入序列号激活页，
 
-![image-seq](https://mashaojie.cn/download/Software/Mac/image-seq.png)
+![image-seq](https://mashaojie.cn/blog/Software/Mac/image-seq.png)
 
 输入邮箱和序列号，然后尝试重启应用，如能正常启动，则激活成功。
 

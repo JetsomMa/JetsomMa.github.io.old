@@ -27,7 +27,7 @@ tags: ReactNative
 
 在我们成功的在安卓打包工程中引入了ReactAndroid模块之后，因为RN模块是整个工程的根本，其他每个模块都有引用，如下图所示：
 
-![image-20200505220454398](https://mashaojie.cn/download/source/typora-user-images/image-20200505220454398.png)
+![image-20200505220454398](https://mashaojie.cn/blog/source/typora-user-images/image-20200505220454398.png)
 
 ***也就是说，我们要将每个RN插件的build.gradle配置中react-native的引用都要修改为：compile project(':ReactAndroid')；***
 
@@ -41,7 +41,7 @@ tags: ReactNative
 
 我们回到npm引用的资源的node_modules路径下react-native中看一眼，如下图所示：
 
-![image-20200505221601343](https://mashaojie.cn/download/source/typora-user-images/image-20200505221601343.png)
+![image-20200505221601343](https://mashaojie.cn/blog/source/typora-user-images/image-20200505221601343.png)
 
 不难发现，原本react-native的引用实际上引用的是如图的这堆jar包和aar包，我们只要修改的jar包和aar包中对应的地方的代码，问题就解决了！
 
@@ -56,7 +56,7 @@ tags: ReactNative
 
 > 当中有四个构建资源下载特别慢，及其耗时，而且容易出错，于是我在别人的百度云盘里找到了对应资源上传到了我的资源服务器，并改了资源下载的脚本，才确保了ReactAndroid模块能够正常高效的构建：【有需要解决这一问题的小伙伴可以微信联系我，我愿意共享代码和我文件服务器上的资源文件。微信/QQ：1215458034】如下图所示：
 
-![image-20200505224445021](https://mashaojie.cn/download/source/typora-user-images/image-20200505224445021.png)
+![image-20200505224445021](https://mashaojie.cn/blog/source/typora-user-images/image-20200505224445021.png)
 
 #### 按照上面的思路，完成这件事儿基本上分为两步：1、修改gradle脚本；2、运行gradle脚本
 
@@ -64,7 +64,7 @@ tags: ReactNative
 
 顺着上面的思路耐心找一找，果真还给找到了相关配置，如下图所示：
 
-![image-20200505225352386](https://mashaojie.cn/download/source/typora-user-images/image-20200505225352386.png)
+![image-20200505225352386](https://mashaojie.cn/blog/source/typora-user-images/image-20200505225352386.png)
 
 再上图中我们看到了两个很重要的配置路径：1、aar本地资源输出的路径；2、Maven仓库的路径。
 
@@ -74,7 +74,7 @@ tags: ReactNative
 
 以下为我的配置修改结果，如图所示：
 
-![image-20200505230625987](https://mashaojie.cn/download/source/typora-user-images/image-20200505230625987.png)
+![image-20200505230625987](https://mashaojie.cn/blog/source/typora-user-images/image-20200505230625987.png)
 
 ##### 2、运行gradle脚本
 
@@ -82,12 +82,12 @@ tags: ReactNative
 
 经过我耐心的研读寻找，也确实找到了，如下图所示：
 
-![image-20200505232229601](https://mashaojie.cn/download/source/typora-user-images/image-20200505232229601.png)
+![image-20200505232229601](https://mashaojie.cn/blog/source/typora-user-images/image-20200505232229601.png)
 
 ***我们需要先运行assemble，让基础模块进行组装编译，然后再运行uploadArchives生成Maven库资源，然后再运行installArchives【在other目录里面】导出Maven资源***
 
 运行结束后，我们会在对应的位置生成对应的aar包和jar包，如下图所示，此时我们只需要将aar和jar包对应的覆盖到我们的node_modules/react-native目录下即可！
 
-![image-20200505231800723](https://mashaojie.cn/download/source/typora-user-images/image-20200505231800723.png)
+![image-20200505231800723](https://mashaojie.cn/blog/source/typora-user-images/image-20200505231800723.png)
 
 ***总结：工作是一种态度，也是一种爱好。虽然现在市面上都在流行前后端分离，讲求技术的专业性，然而跨界并不是什么坏事，有时能更好的解决问题，产生意想不到的效果。所以我们要足够努力，且有必要的自我肯定！***

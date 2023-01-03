@@ -17,7 +17,7 @@ tags: JavaScript
 
 https://blog.csdn.net/baidu_36065997/article/details/80309991
 
-![image-20200507130924134](https://mashaojie.cn/download/source/typora-user-images/image-20200507130924134.png)
+![image-20200507130924134](https://mashaojie.cn/blog/source/typora-user-images/image-20200507130924134.png)
 
 
 
@@ -25,7 +25,7 @@ https://blog.csdn.net/baidu_36065997/article/details/80309991
 
 https://www.jianshu.com/p/a8dc699e9534
 
-![image-20200507131205730](https://mashaojie.cn/download/source/typora-user-images/image-20200507131205730.png)
+![image-20200507131205730](https://mashaojie.cn/blog/source/typora-user-images/image-20200507131205730.png)
 
 > 为了做好记录，便于他人学习，我发挥了我不摇碧莲的身手拿来主义【申明一下：我一向尊重原创】
 
@@ -62,7 +62,7 @@ https://www.jianshu.com/p/a8dc699e9534
 
   引用类型（object）是存放在堆内存中的，变量实际上是一个存放在栈内存的指针，这个指针指向堆内存中的地址。每个空间大小不一样，要根据情况开进行特定的分配
 
-  ![image-20200507131830382](https://mashaojie.cn/download/source/typora-user-images/image-20200507131830382.png)
+  ![image-20200507131830382](https://mashaojie.cn/blog/source/typora-user-images/image-20200507131830382.png)
 
 
 
@@ -87,7 +87,7 @@ console.log(a); // 11
 console.log(b); // 10
 ```
 
-![image-20200507132343411](https://mashaojie.cn/download/source/typora-user-images/image-20200507132343411.png)
+![image-20200507132343411](https://mashaojie.cn/blog/source/typora-user-images/image-20200507132343411.png)
 
 
 
@@ -112,7 +112,7 @@ console.log(a.age);// 22
 console.log(a == b);// true
 ```
 
-![image-20200507132506853](https://mashaojie.cn/download/source/typora-user-images/image-20200507132506853.png)
+![image-20200507132506853](https://mashaojie.cn/blog/source/typora-user-images/image-20200507132506853.png)
 
 
 
